@@ -1,0 +1,39 @@
+@import url("https://fonts.google.com/specimen/Ubuntu?query=ubuntu#standard-styles");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 50px;
+  animation: mymove 5s linear;
+}
+
+@keyframes mymove {
+  50% {
+    box-shadow: 10px 20px 30px #fff;
+  }
+}
+#text {
+  display: none;
+}
+p {
+  font-size: 70px;
+}
