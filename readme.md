@@ -6,7 +6,7 @@
 
 ### Links
 
-- Live Site URL: [Live Demo](https://superlative-treacle-26e32b.netlify.app/)
+- Live Site URL: [Live Demo](https://glittery-baklava-1ce26d.netlify.app/)
 
 ### Built with
 
